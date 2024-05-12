@@ -1,0 +1,117 @@
+/* ===========================
+ table of contents
+==============================
+1. Left Section
+2. Right Section ==> animation*/
+
+
+
+/* ========================
+1. Left Section
+=========================== */
+
+section.hero {
+  margin-top: 6rem;
+}
+
+section.hero .parent-avatar.flex {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 110px;
+}
+
+section.hero .left-section {
+  flex-grow: 1;
+}
+
+section.hero .icon-verified {
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+section.hero .avatar {
+  width: 110px;
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+
+section.hero h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+
+section.hero p.sub-title {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 25px;
+}
+
+section.hero .all-icons {
+  gap: 1.5rem;
+}
+
+section.hero .all-icons .icon {
+  color: var(--subtitle);
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+
+section.hero .all-icons .icon:hover {
+  scale: 1.2;
+  cursor: pointer;
+  color: var(--icon-hover);
+}
+
+
+section.hero .cv {
+  display: flex;
+}
+
+section.hero div.cv a.cvBtn {
+  background-color: rgba(36, 37, 46, 1);
+  padding: 0.75rem 1.8rem;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  margin-top: 25px !important;
+  display: block;
+  border: 1px solid rgb(63 63 70);
+  color: var(--title);
+  width: fit-content;
+  transition: 0.3s;
+}
+
+
+section.hero div.cv a.cvBtn:hover {
+  scale: 0.97;
+  opacity: 1;
+}
+
+
+.light section.hero div.cv a.cvBtn {
+  color: var(--primary);
+}
+
+
+/* ===================================
+    2. Right Section ==> animation
+====================================== */
+
+section.hero .animation {
+  width: 100%;
+  translate: 100px 55px;
+}
+
+@media (max-width: 1250px) {
+  section.hero .animation {
+    display: none;
+  }
+}
