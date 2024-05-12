@@ -13,7 +13,7 @@ const Hero = () => {
           <motion.img
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1)" }}
-            transition={{ damping: 7, type: "spring", stiffness: 20 }}
+            transition={{ damping: 7, type: "spring", stiffness: 18 }}
             src="./ayman.png"
             className="avatar"
             alt="ayman_avatar"
@@ -25,7 +25,7 @@ const Hero = () => {
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 2, type: "spring", stiffness: 20 }}
+          transition={{ duration: 2, type: "spring", stiffness: 5 }}
           className="title"
         >
           Software designer, Front end developer.
