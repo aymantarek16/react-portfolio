@@ -15,4 +15,4 @@ This is my personal website. I have used all my skills in this project and added
 7. Framer-Motion
 8. Lottie-React
 
-![preview](https://i.imgur.com/B3aUfN7.png](https://www12.0zz0.com/2024/05/12/22/660769573.png)
+![preview](https://www12.0zz0.com/2024/05/12/22/660769573.png)
