@@ -1,6 +1,6 @@
 # React + Vite Portfolio 
 
-A React portfolio website is a personal website built using the React.js library, I have used all my skills in this project and added all my projects with continuous updating when building a new project. Also, there are all my contacts. The site is responsive to all types of screens and devices
+A personal portfolio website built using the React.js library, I have used all my skills in this project and added all my projects with continuous updating when building a new project. Also, there are all my contacts. The site is responsive to all types of screens and devices
 
 ### Site Components:
 1. Dark Mode Button:  to help change between light mode or dark mode according to what the visitor wants
@@ -13,13 +13,12 @@ A React portfolio website is a personal website built using the React.js library
 
 ---
 
-1. React.js
-2. Vite
-3. Css
-4. Local storage
-5. Icomoon
-6. Formspree-React-library
-7. Framer-Motion
-8. Lottie-React
+1. React.js + Vite
+2. Css
+3. Local storage
+4. Icomoon
+5. Formspree-React-library
+6. Framer-Motion
+7. Lottie-React
 
 ![preview](https://www12.0zz0.com/2024/05/12/22/660769573.png)
