@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./header.css";
 
 const Header = () => {
-  const [showModal, setshowModal] = useState(false);
+  // const [showModal, setshowModal] = useState(false);
   const [theme, setTheme] = useState(
     localStorage.getItem("currentTheme") || "dark"
   );
@@ -19,16 +19,34 @@ const Header = () => {
 
   return (
     <header className="flex">
-      <button
+      {/* <button
         onClick={() => {
           setshowModal(true);
         }}
         className="menu icon-menu flex"
-      />
-      {/* Start Empty div*/}
-      <div />
-      {/* End Empty div*/}
-      <nav>
+      /> */}
+
+      
+    
+
+      {/* Dark / Light Mode */}
+      <button
+        className="mode flex"
+        onClick={() => {
+          localStorage.setItem(
+            "currentTheme",
+            theme === "dark" ? "light" : "dark"
+          );
+          setTheme(localStorage.getItem("currentTheme"));
+        }}
+      >
+        <span className={theme === "dark" ? "icon-moon-o" : "icon-sun"}></span>
+      </button>
+
+  
+
+      {/* Nav Links */}
+      {/* <nav>
         <ul className="flex">
           <li>
             <a href="">About</a>
@@ -46,22 +64,9 @@ const Header = () => {
             <a href="">Contact</a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
-      <button
-        className="mode flex"
-        onClick={() => {
-          localStorage.setItem(
-            "currentTheme",
-            theme === "dark" ? "light" : "dark"
-          );
-          setTheme(localStorage.getItem("currentTheme"));
-        }}
-      >
-        <span className={theme === "dark" ? "icon-moon-o" : "icon-sun"}></span>
-      </button>
-
-      {showModal && (
+      {/* {showModal && (
         <div className="fixed">
           <ul className="modal">
             <li>
@@ -89,7 +94,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-      )}
+      )} */}
     </header>
   );
 };
