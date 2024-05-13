@@ -1,8 +1,18 @@
-# React + Vite
+# React + Vite Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal website. I have used all my skills in this project and added all my projects with continuous updating when building a new project.. Also there are all my contacts.. The site is responsive to all types of screens and devices
 
-Currently, two official plugins are available:
+### Technologies Used:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+1. React.js
+2. Vite
+3. Css
+4. Local storage
+5. Icomoon
+6. Formspree-React-library
+7. Framer-Motion
+8. Lottie-React
+
+![preview](https://www12.0zz0.com/2024/05/12/22/660769573.png)
