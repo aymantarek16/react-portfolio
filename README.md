@@ -1,4 +1,4 @@
-# React + Vite Portfolio 
+# React Portfolio 
 
 A personal portfolio website built using the React.js library, I have used all my skills in this project and added all my projects with continuous updating when building a new project. Also, there are all my contacts. The site is responsive to all types of screens and devices
 
