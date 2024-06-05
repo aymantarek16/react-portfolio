@@ -105,7 +105,7 @@ const myProjects = [
   {
     category: "react",
     projectTitle: "Admin Dashboard",
-    subTitle: "A Website Administrator Dashboard to manage and monitor different aspects of the website",
+    subTitle: "Administrator Dashboard to manage and monitor different aspects of the website",
     imgPath: "./Projects images/React.js/Admin_dashboard.png",
     liveDemo: "https://admin-dashboard-tau-one-26.vercel.app/",
     githup: "https://github.com/aymantarek16/admin-dashboard",
